@@ -1,0 +1,167 @@
+#cartItemsList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#cartItemsList li {
+	float: left;
+	padding: 10px;
+}
+
+.btnAddAction {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #efefef;
+    border: #E0E0E0 1px solid;
+    color: #211a1a;
+    float: right;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/*
+.item {
+  padding: 20px 30px;
+  height: 120px;
+  display: flex;
+}
+ 
+.item:nth-child(3) {
+  border-top:  1px solid #E1E8EE;
+  border-bottom:  1px solid #E1E8EE;
+}*/
+
+/*  Styles for the quantity buttons added below. */
+
+.num {
+	margin: auto;
+	  text-align: center;
+  width: 32px;
+}
+.quantity {
+  padding-top: 20px;
+  margin-right: 10px;
+/*  margin-right: 60px;*/
+}
+.quantity input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 32px;
+/*  width: 32px;*/
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+  margin: auto;
+  padding: 0 5px;
+}
+
+button[class*=btn] {
+  width: 30px;
+  height: 30px;
+  background-color: #E1E8EE;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.minus-btn img {
+/*margin-bottom: 3px;*/
+  margin-bottom: 6px;
+}
+.plus-btn img {
+  margin-top: 2px;
+}
+ 
+button:focus,
+input:focus {
+  outline:0;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+/* end of styles for the quantity buttons */
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+	color: #fff;
+	background-color: #000;
+}
+
+td {
+	padding: 30px;
+	border-collapse: collapse;
+	border: none;
+}
+table {
+	margin: 30px;
+}
+
+.clearcart {
+	float: left;
+}
+.checkout {
+	float: left;
+}
+h1 {
+	text-align: center;
+}
+.finish {
+	margin: 30px;
+}
+
+.link {
+	margin: 36px;
+	
+	display: inline-block;
+}
+
+.footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0px auto;
+  height: 40px; 
+padding: 10px;  
+clear: both;
+display: block;
+ 
+}
+
+
+#cart {
+  overflow: hidden;
+ display: block;
+ position: relative; 
+ min-height: 1000px;
+ height: 1000px; 
+}
+
+#page-container {
+	
+  position: relative;
+     min-height:100%;
+	 margin: 0px auto;
+  height:1000px; 
+
+}
+#header {
+  height: 50px;  
+}
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+   min-height: 100%;
+   
+}
